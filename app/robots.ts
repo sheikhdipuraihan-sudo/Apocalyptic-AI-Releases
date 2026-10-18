@@ -1,11 +1,13 @@
 import type { MetadataRoute } from 'next'
 
+const siteUrl = 'https://apocalyptic.sites.bd'
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://raihan.sites.bd/sitemap.xml',
+    sitemap: `${siteUrl}/sitemap.xml`,
   }
 }

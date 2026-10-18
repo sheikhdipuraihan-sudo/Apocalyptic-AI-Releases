@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://raihan.sites.bd'),
+  metadataBase: new URL('https://apocalyptic.sites.bd'),
   title: {
     default: 'Apocalyptic AI — Your Offline Survival Guide',
     template: '%s | Apocalyptic AI',
@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     'on-device AI',
     'Apocalyptic AI',
   ],
+  verification: {
+    google: 'ihV2tfZiKpRHRxgDI1DOr8IxTsnI_X1TOjRVRyn-th8',
+  },
   applicationName: 'Apocalyptic AI',
   authors: [{ name: 'Raihan' }],
   creator: 'Raihan',
@@ -51,7 +54,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://raihan.sites.bd',
+    url: 'https://apocalyptic.sites.bd',
     title: 'Apocalyptic AI — Your Offline Survival Guide',
     description: 'Practical survival guidance and preparedness tools, built into a private Android app that works when connectivity does not.',
     siteName: 'Apocalyptic AI',
@@ -76,6 +79,19 @@ export const metadata: Metadata = {
   },
 }
 
+const siteStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Apocalyptic AI',
+  alternateName: 'Apocalyptic AI — Your Offline Survival Guide',
+  url: 'https://apocalyptic.sites.bd/',
+  publisher: {
+    '@type': 'Organization',
+    name: 'Apocalyptic AI',
+    url: 'https://apocalyptic.sites.bd/',
+  },
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -84,6 +100,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${instrumentSans.variable} ${instrumentSerif.variable} ${jetbrainsMono.variable} font-sans antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteStructuredData) }}
+        />
         {children}
         <Analytics />
       </body>
