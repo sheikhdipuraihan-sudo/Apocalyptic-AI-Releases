@@ -1,0 +1,22 @@
+name: Privacy request
+description: Ask a question about the app's privacy practices or local data handling.
+title: "[Privacy] "
+labels: [privacy, triage]
+body:
+  - type: markdown
+    attributes:
+      value: "The app has no user accounts or server-side chat database. Never post chat contents, phone numbers, GPS coordinates, passwords, or other sensitive data here."
+  - type: textarea
+    id: request
+    attributes:
+      label: Privacy question or request
+      description: Describe the policy question or local-data concern in general terms.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I have removed private or sensitive information from this public issue.
+          required: true

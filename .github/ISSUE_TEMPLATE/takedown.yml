@@ -1,0 +1,36 @@
+name: Copyright, license, or takedown request
+description: Report a rights, license, privacy, or distribution concern.
+title: "[Takedown] "
+labels: [takedown, rights-review]
+body:
+  - type: markdown
+    attributes:
+      value: "Read TAKEDOWN_AND_SUPPORT.md first. Do not upload identity documents or confidential legal material to a public issue."
+  - type: input
+    id: material
+    attributes:
+      label: Affected release or file
+      description: Link to the public release, document, or file at issue.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Rights and basis for request
+      description: Identify the work or right involved and explain why the material should be reviewed.
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Safe contact route
+      description: Provide an email or other route where the maintainer can request private details.
+    validations:
+      required: true
+  - type: checkboxes
+    id: good_faith
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have a good-faith basis for this request and have not included sensitive documents in this public issue.
+          required: true

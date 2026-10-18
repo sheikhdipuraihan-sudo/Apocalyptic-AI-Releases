@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Privacy, copyright, or takedown request
+    url: https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/blob/main/TAKEDOWN_AND_SUPPORT.md
+    about: Read the request process before posting details.
+  - name: Security report
+    url: https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/security/advisories/new
+    about: Use private vulnerability reporting when available; do not publish exploit details.

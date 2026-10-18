@@ -1,0 +1,34 @@
+name: Complaint or safety report
+description: Report unsafe, misleading, offensive, or broken release behavior.
+title: "[Complaint] "
+labels: [complaint, triage]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include passwords, private user data, medical records, payment details, or harmful instructions. For rights-holder requests, use the takedown form."
+  - type: input
+    id: version
+    attributes:
+      label: App or release version
+      placeholder: "For example: v1.0.12"
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happened?
+      description: Describe the problem and the expected behavior without including sensitive information.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include device model and Android version if relevant.
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I have removed passwords, private data, and confidential information from this report.
+          required: true
