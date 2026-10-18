@@ -2,7 +2,7 @@
 
 Public distribution repository for the **Apocalyptic AI** Android app.
 
-This repository contains only public release assets and documents needed by users, app stores, and rights holders. Source code and build infrastructure remain in the private [Apocalyptic-AI](https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI) repository.
+This public repository contains the Apocalyptic AI website source, release assets, and documents for users, app stores, and rights holders. The native Android app source and its build infrastructure remain in the private [Apocalyptic-AI](https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI) repository.
 
 ## Downloads
 
@@ -26,7 +26,7 @@ Always verify the release version and, where provided, the signing certificate b
 
 Apocalyptic AI is a local preparedness assistant, not an emergency service, medical provider, or substitute for official instructions. AI output can be wrong or unsafe. Contact local emergency services for urgent situations and follow current local guidance.
 
-This public repository does not contain model weights, private user data, signing keys, or application source code. Optional models and map data are downloaded by users from their selected sources and retain their own terms.
+This public repository contains website source but does not contain native Android application source, model weights, private user data, or signing keys. Optional models and map data are downloaded by users from their selected sources and retain their own terms.
 
 ## Contact
 
