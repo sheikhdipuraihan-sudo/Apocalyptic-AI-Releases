@@ -68,7 +68,7 @@ export function CtaSection() {
                     className="bg-foreground hover:bg-foreground/90 text-background px-8 h-14 text-base rounded-full group"
                   >
                     <a
-                      href="https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases"
+                      href="https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases/latest/download/app-release.apk"
                       target="_blank"
                       rel="noreferrer"
                     >

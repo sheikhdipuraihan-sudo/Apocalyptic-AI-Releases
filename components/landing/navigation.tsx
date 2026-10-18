@@ -67,7 +67,7 @@ export function Navigation() {
               Privacy policy
             </a>
             <Button asChild size="sm" className={`bg-foreground hover:bg-foreground/90 text-background rounded-full transition-all duration-500 ${isScrolled ? "px-4 h-8 text-xs" : "px-6"}`}>
-              <a href="https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases">Download APK</a>
+              <a href="https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases/latest/download/app-release.apk">Download APK</a>
             </Button>
           </div>
 
@@ -143,7 +143,7 @@ export function Navigation() {
               className="flex-1 bg-foreground text-background rounded-full h-14 text-base"
             >
               <a
-                href="https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases"
+                href="https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases/latest/download/app-release.apk"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}

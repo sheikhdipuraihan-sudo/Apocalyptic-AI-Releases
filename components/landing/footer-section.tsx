@@ -1,7 +1,7 @@
 const footerLinks = [
   { name: "Features", href: "#features" },
   { name: "How it works", href: "#how-it-works" },
-  { name: "Download APK", href: "https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases" },
+  { name: "Download APK", href: "https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases/latest/download/app-release.apk" },
   { name: "Privacy Policy", href: "https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/blob/main/PRIVACY_POLICY.md" },
 ];
 

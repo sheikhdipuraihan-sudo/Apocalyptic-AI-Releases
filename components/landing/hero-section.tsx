@@ -118,7 +118,7 @@ export function HeroSection() {
             }`}
           >
             <Button asChild size="lg" className="bg-foreground hover:bg-foreground/90 text-background px-8 h-14 text-base rounded-full group">
-              <a href="https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases">
+              <a href="https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/releases/latest/download/app-release.apk">
                 Download the latest APK
                 <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
               </a>
