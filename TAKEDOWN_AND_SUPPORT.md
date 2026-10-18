@@ -1,6 +1,6 @@
 # Takedown, Copyright, Privacy, and Support Requests
 
-This repository is a public distribution point for Apocalyptic AI release files and public notices. If you believe an APK, AAB, document, logo, or other material infringes your rights or violates an applicable license, report it promptly so the maintainer can review it.
+This repository is a public distribution point for Apocalyptic AI APK release files and public notices. If you believe an APK, document, logo, or other material infringes your rights or violates an applicable license, report it promptly so the maintainer can review it.
 
 ## What to include
 

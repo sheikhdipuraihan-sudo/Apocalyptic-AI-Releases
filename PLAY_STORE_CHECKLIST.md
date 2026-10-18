@@ -3,7 +3,7 @@
 This checklist supports release preparation; it does not guarantee Google Play approval.
 
 - Use a persistent upload key with Play App Signing and keep the keystore backup private.
-- Submit the signed AAB, not the APK, for a Play production release.
+- This repository publishes APK files only for direct installation and testing; keep store-submission format decisions separate from this APK-only distribution workflow.
 - Keep the Play Console privacy-policy URL pointed at the public [`PRIVACY_POLICY.md`](https://github.com/sheikhdipuraihan-sudo/Apocalyptic-AI-Releases/blob/main/PRIVACY_POLICY.md).
 - Complete the Data safety form from the actual shipped behavior and update it when behavior changes.
 - Complete target audience, content rating, ads, app access, AI-generated content, permissions, and account-deletion declarations accurately.
